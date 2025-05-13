@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { Card, CardContent } from "@/components/ui/card";
-import { TrendingUp, Book, Chart, Calendar, Info } from "lucide-react";
+import { TrendingUp, Book, ChartBar, Calendar, Info } from "lucide-react";
 
 const features = [
   {
@@ -17,7 +17,7 @@ const features = [
   {
     title: "Data Visualization",
     description: "See key statistics and trends visualized in easy-to-understand charts and graphs.",
-    icon: <Chart className="h-8 w-8 text-sports-red" />,
+    icon: <ChartBar className="h-8 w-8 text-sports-red" />,
   },
   {
     title: "Event Tracking",
