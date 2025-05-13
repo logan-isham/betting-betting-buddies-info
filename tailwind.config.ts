@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,6 +62,13 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				sports: {
+					'blue': '#0E3B62',
+					'green': '#1A5336',
+					'gold': '#F9A825',
+					'red': '#C62828',
+					'grey': '#333F48'
 				}
 			},
 			borderRadius: {
@@ -84,11 +92,20 @@ export default {
 					to: {
 						height: '0'
 					}
+				},
+				'float': {
+					'0%, 100%': { transform: 'translateY(0)' },
+					'50%': { transform: 'translateY(-10px)' }
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'float': 'float 3s ease-in-out infinite'
+			},
+			backgroundImage: {
+				'sport-gradient': 'linear-gradient(135deg, #0E3B62 0%, #1A5336 100%)',
+				'highlight-gradient': 'linear-gradient(90deg, rgba(249,168,37,0.15) 0%, rgba(249,168,37,0) 100%)',
 			}
 		}
 	},
