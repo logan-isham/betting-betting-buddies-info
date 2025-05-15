@@ -42,24 +42,11 @@ const HeroSection = () => {
           <div className="relative">
             <div className="absolute inset-0 bg-gradient-to-br from-sports-gold/20 to-sports-blue/20 transform rotate-6 rounded-2xl"></div>
             <div className="relative bg-white p-1 rounded-2xl shadow-xl">
-              <div className="aspect-[9/16] rounded-xl overflow-hidden bg-gray-100 flex items-center justify-center">
-                <div className="text-center p-4">
-                  <div className="w-24 h-24 mx-auto mb-4 bg-sports-blue rounded-full flex items-center justify-center">
-                    <span className="text-white text-4xl font-bold">B</span>
-                  </div>
-                  <div className="space-y-2">
-                    <div className="h-4 bg-gray-200 rounded w-3/4 mx-auto"></div>
-                    <div className="h-4 bg-gray-200 rounded w-1/2 mx-auto"></div>
-                    <div className="h-8 bg-sports-gold/20 rounded w-2/3 mx-auto mt-6"></div>
-                  </div>
-                  <div className="mt-8 grid grid-cols-2 gap-3">
-                    <div className="h-20 bg-gray-200 rounded"></div>
-                    <div className="h-20 bg-gray-200 rounded"></div>
-                    <div className="h-20 bg-gray-200 rounded"></div>
-                    <div className="h-20 bg-gray-200 rounded"></div>
-                  </div>
-                </div>
-              </div>
+              <img 
+                src="/lovable-uploads/4b47efcc-641f-46cb-a1aa-3a71bde0448f.png" 
+                alt="Baller App Screenshot" 
+                className="rounded-xl w-full h-auto"
+              />
             </div>
           </div>
         </div>
