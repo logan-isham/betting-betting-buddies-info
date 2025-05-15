@@ -6,7 +6,7 @@ const steps = [
   {
     number: "01",
     title: "Download & Install",
-    description: "Download BetSmart from your app store and create your free account to get started.",
+    description: "Download BallerBets from your app store and create your free account to get started.",
   },
   {
     number: "02",
@@ -30,7 +30,7 @@ const HowItWorks = () => {
     <section id="how-it-works" className="py-20">
       <div className="container mx-auto px-4">
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <h2 className="mb-4">How BetSmart Works</h2>
+          <h2 className="mb-4">How BallerBets Works</h2>
           <p className="text-gray-600 text-lg">
             Our educational platform is designed to help you build knowledge and confidence before placing real bets.
           </p>

@@ -40,7 +40,7 @@ const FeaturesSection = () => {
             <span className="gradient-text">Educational Features</span>
           </h2>
           <p className="text-gray-600 text-lg">
-            BetSmart provides comprehensive educational tools designed to help you understand sports betting fundamentals and develop informed strategies.
+            BallerBets provides comprehensive educational tools designed to help you understand sports betting fundamentals and develop informed strategies.
           </p>
         </div>
         

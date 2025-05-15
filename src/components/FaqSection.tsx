@@ -9,27 +9,27 @@ import {
 
 const faqs = [
   {
-    question: "Is BetSmart a gambling application?",
-    answer: "No, BetSmart is purely educational. We don't facilitate any real-money gambling or betting. Our focus is on teaching sports enthusiasts how betting markets work and how to make informed decisions if they choose to bet elsewhere."
+    question: "Is BallerBets a gambling application?",
+    answer: "No, BallerBets is purely educational. We don't facilitate any real-money gambling or betting. Our focus is on teaching sports enthusiasts how betting markets work and how to make informed decisions if they choose to bet elsewhere."
   },
   {
-    question: "Do I need to have betting experience to use BetSmart?",
-    answer: "Not at all. BetSmart is designed for all experience levels, from complete beginners to those with some betting knowledge. Our step-by-step tutorials start with the basics and progressively cover more advanced concepts."
+    question: "Do I need to have betting experience to use BallerBets?",
+    answer: "Not at all. BallerBets is designed for all experience levels, from complete beginners to those with some betting knowledge. Our step-by-step tutorials start with the basics and progressively cover more advanced concepts."
   },
   {
     question: "How does the simulation feature work?",
     answer: "Our simulation feature allows you to practice betting strategies using virtual currency in a risk-free environment. You can place simulated bets on real sporting events, track your performance over time, and learn from the outcomes without any financial risk."
   },
   {
-    question: "Which sports does BetSmart cover?",
-    answer: "BetSmart covers a wide range of popular sports including football, basketball, baseball, hockey, soccer, tennis, golf, MMA, boxing, and more. We're constantly expanding our coverage based on user feedback."
+    question: "Which sports does BallerBets cover?",
+    answer: "BallerBets covers a wide range of popular sports including football, basketball, baseball, hockey, soccer, tennis, golf, MMA, boxing, and more. We're constantly expanding our coverage based on user feedback."
   },
   {
-    question: "Is BetSmart free to use?",
-    answer: "BetSmart offers a free version with access to basic tutorials and limited simulations. Premium subscribers get access to advanced tutorials, expert analysis, all simulation features, and ad-free experience."
+    question: "Is BallerBets free to use?",
+    answer: "BallerBets offers a free version with access to basic tutorials and limited simulations. Premium subscribers get access to advanced tutorials, expert analysis, all simulation features, and ad-free experience."
   },
   {
-    question: "How does BetSmart promote responsible gambling?",
+    question: "How does BallerBets promote responsible gambling?",
     answer: "Education is our primary goal. We include modules on responsible gambling practices, bankroll management, and recognizing problem gambling behaviors. We also provide resources for those seeking help with gambling-related issues."
   }
 ];
