@@ -7,9 +7,11 @@ const Navbar = () => {
     <header className="border-b bg-white/80 backdrop-blur-md sticky top-0 z-50">
       <div className="container mx-auto flex items-center justify-between h-16 px-4">
         <div className="flex items-center gap-2">
-          <div className="h-8 w-8 rounded-md bg-sports-blue flex items-center justify-center text-white font-bold">
-            B
-          </div>
+          <img 
+            src="/lovable-uploads/ae836cc8-3f6d-4097-89f8-143324941042.png" 
+            alt="Baller Logo" 
+            className="h-10 w-auto"
+          />
           <span className="font-bold text-xl text-sports-blue">Baller</span>
         </div>
         
