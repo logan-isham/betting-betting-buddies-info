@@ -8,7 +8,7 @@ const Navbar = () => {
       <div className="container mx-auto flex items-center justify-between h-16 px-4">
         <div className="flex items-center gap-2">
           <img 
-            src="/lovable-uploads/ae836cc8-3f6d-4097-89f8-143324941042.png" 
+            src="/lovable-uploads/4b47efcc-641f-46cb-a1aa-3a71bde0448f.png" 
             alt="BallerBets Logo" 
             className="h-10 w-auto"
           />

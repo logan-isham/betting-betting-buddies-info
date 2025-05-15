@@ -7,7 +7,7 @@ const testimonials = [
   {
     name: "Michael T.",
     role: "Fantasy Football Player",
-    content: "BetSmart helped me understand how odds actually work. Now I can place educated bets based on real data rather than just gut feelings.",
+    content: "BallerBets helped me understand how odds actually work. Now I can place educated bets based on real data rather than just gut feelings.",
     rating: 5,
   },
   {
@@ -25,7 +25,7 @@ const testimonials = [
   {
     name: "Jennifer R.",
     role: "Sports Enthusiast",
-    content: "I appreciate how BetSmart focuses on education rather than pushing me to place bets. It's made sports more enjoyable for me.",
+    content: "I appreciate how BallerBets focuses on education rather than pushing me to place bets. It's made sports more enjoyable for me.",
     rating: 5,
   }
 ];
@@ -91,7 +91,7 @@ const TestimonialsSection = () => {
               <div className="text-gray-600 text-sm text-center">Tutorials</div>
             </div>
             <div className="flex flex-col items-center">
-              <div className="text-3xl font-bold text-sports-blue mb-1">15+</div>
+              <div className="text-3xl font-bold text-sports-blue mb-1">10+</div>
               <div className="text-gray-600 text-sm text-center">Sports Covered</div>
             </div>
           </div>
