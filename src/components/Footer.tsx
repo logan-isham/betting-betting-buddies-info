@@ -10,9 +10,9 @@ const Footer = () => {
           <div className="col-span-1 md:col-span-1">
             <div className="flex items-center gap-2 mb-4">
               <div className="h-8 w-8 rounded-md bg-sports-blue flex items-center justify-center text-white font-bold">
-                SB
+                B
               </div>
-              <span className="font-bold text-xl text-sports-blue">BetSmart</span>
+              <span className="font-bold text-xl text-sports-blue">Baller</span>
             </div>
             <p className="text-gray-600 mb-4">
               Educating sports enthusiasts on responsible betting strategies and techniques.
@@ -39,7 +39,7 @@ const Footer = () => {
           </div>
           
           <div>
-            <h4 className="font-semibold text-lg mb-4">BetSmart App</h4>
+            <h4 className="font-semibold text-lg mb-4">Baller App</h4>
             <ul className="space-y-2">
               <li><a href="#features" className="text-gray-600 hover:text-sports-blue">Features</a></li>
               <li><a href="#how-it-works" className="text-gray-600 hover:text-sports-blue">How It Works</a></li>
@@ -71,10 +71,10 @@ const Footer = () => {
         
         <div className="border-t mt-12 pt-6 text-center">
           <p className="text-sm text-gray-500">
-            © {new Date().getFullYear()} BetSmart. All rights reserved.
+            © {new Date().getFullYear()} Baller. All rights reserved.
           </p>
           <p className="text-xs text-gray-400 mt-1">
-            BetSmart is an educational platform and does not offer real money gambling services.
+            Baller is an educational platform and does not offer real money gambling services.
           </p>
         </div>
       </div>

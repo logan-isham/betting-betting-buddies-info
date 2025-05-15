@@ -16,7 +16,7 @@ const HeroSection = () => {
               Master the Art of <span className="text-sports-gold">Sports Betting</span> with Confidence
             </h1>
             <p className="text-white/80 text-lg mb-8">
-              BetSmart is your personal educational companion for understanding betting odds, strategies, and making informed decisions based on real data.
+              Baller is your personal educational companion for understanding betting odds, strategies, and making informed decisions based on real data.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Button size="lg" className="bg-sports-gold hover:bg-sports-gold/90 text-sports-blue">
@@ -45,7 +45,7 @@ const HeroSection = () => {
               <div className="aspect-[9/16] rounded-xl overflow-hidden bg-gray-100 flex items-center justify-center">
                 <div className="text-center p-4">
                   <div className="w-24 h-24 mx-auto mb-4 bg-sports-blue rounded-full flex items-center justify-center">
-                    <span className="text-white text-4xl font-bold">BS</span>
+                    <span className="text-white text-4xl font-bold">B</span>
                   </div>
                   <div className="space-y-2">
                     <div className="h-4 bg-gray-200 rounded w-3/4 mx-auto"></div>

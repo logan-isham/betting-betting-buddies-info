@@ -13,7 +13,7 @@ const CtaSection = () => {
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-white mb-6">Start Your Sports Betting Education Today</h2>
           <p className="text-white/80 text-lg mb-10 max-w-2xl mx-auto">
-            Download BetSmart now and join thousands of sports fans who are learning to understand odds, analyze data, and make more informed betting decisions.
+            Download Baller now and join thousands of sports fans who are learning to understand odds, analyze data, and make more informed betting decisions.
           </p>
           
           <div className="flex flex-col sm:flex-row justify-center gap-4 mb-10">
