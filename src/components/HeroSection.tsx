@@ -46,8 +46,8 @@ const HeroSection = () => {
                 <img 
                   src="/lovable-uploads/4b47efcc-641f-46cb-a1aa-3a71bde0448f.png" 
                   alt="BallerBets App Screenshot" 
-                  className="w-full h-full object-cover object-top"
-                  style={{ objectPosition: "top center" }}
+                  className="w-full h-full object-cover"
+                  style={{ objectPosition: "bottom center" }}
                 />
               </AspectRatio>
             </div>
