@@ -1,5 +1,8 @@
+
 import React from 'react';
 import { Button } from "@/components/ui/button";
+import { AspectRatio } from "@/components/ui/aspect-ratio";
+
 const HeroSection = () => {
   return <section className="relative overflow-hidden bg-sport-gradient py-20 md:py-32">
       {/* Background elements */}
@@ -38,8 +41,15 @@ const HeroSection = () => {
           
           <div className="relative">
             <div className="absolute inset-0 bg-gradient-to-br from-sports-gold/20 to-sports-blue/20 transform rotate-6 rounded-2xl"></div>
-            <div className="relative bg-white p-1 rounded-2xl shadow-xl">
-              <img src="/lovable-uploads/4b47efcc-641f-46cb-a1aa-3a71bde0448f.png" alt="Baller App Screenshot" className="rounded-xl w-full h-auto object-cover" />
+            <div className="relative bg-white p-1 rounded-2xl shadow-xl overflow-hidden">
+              <AspectRatio ratio={9/16} className="w-full">
+                <img 
+                  src="/lovable-uploads/4b47efcc-641f-46cb-a1aa-3a71bde0448f.png" 
+                  alt="BallerBets App Screenshot" 
+                  className="w-full h-full object-cover object-top"
+                  style={{ objectPosition: "top center" }}
+                />
+              </AspectRatio>
             </div>
           </div>
         </div>
