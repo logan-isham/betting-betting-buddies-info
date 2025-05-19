@@ -1,10 +1,7 @@
-
 import React from 'react';
 import { Button } from "@/components/ui/button";
-
 const HeroSection = () => {
-  return (
-    <section className="relative overflow-hidden bg-sport-gradient py-20 md:py-32">
+  return <section className="relative overflow-hidden bg-sport-gradient py-20 md:py-32">
       {/* Background elements */}
       <div className="absolute -top-24 -right-24 w-96 h-96 bg-sports-gold/20 rounded-full blur-3xl"></div>
       <div className="absolute -bottom-32 -left-32 w-96 h-96 bg-sports-green/20 rounded-full blur-3xl"></div>
@@ -42,17 +39,11 @@ const HeroSection = () => {
           <div className="relative">
             <div className="absolute inset-0 bg-gradient-to-br from-sports-gold/20 to-sports-blue/20 transform rotate-6 rounded-2xl"></div>
             <div className="relative bg-white p-1 rounded-2xl shadow-xl">
-              <img 
-                src="/lovable-uploads/4b47efcc-641f-46cb-a1aa-3a71bde0448f.png" 
-                alt="Baller App Screenshot" 
-                className="rounded-xl w-full h-auto"
-              />
+              <img src="/lovable-uploads/4b47efcc-641f-46cb-a1aa-3a71bde0448f.png" alt="Baller App Screenshot" className="rounded-xl w-full h-auto object-cover" />
             </div>
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default HeroSection;
